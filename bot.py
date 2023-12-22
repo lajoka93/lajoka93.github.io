@@ -64,8 +64,10 @@ async def join(ctx):
 
 @bot.command(pass_context = True)
 async def list(ctx):
-    await ctx.send("""Folgende Dinge kannst du dir anhören:  Geschichte Podcast Lorenz, Lasse, Tony und Altay: allt.mp3
-Geschichte Podcast von Adam, Carlo, Leif, Fynn.m4a : acfl.m4a""")
+    url_list = "https://raw.githubusercontent.com/lajoka93/lajoka93.github.io/main/list.txt"
+    response = urllib.request.urlopen(url_list)  # Öffnet die URL
+    l = response.read().decode('utf-8')
+    await ctx.send(l)
 
 
 
@@ -171,6 +173,7 @@ async def on_message(msg):
     #        b = "Hallo " + a
      #       await msg.channel.send(b)
       #      await bot.process_commands(msg)
+
 
 stay_alive()
 bot.run(os.environ['DISCORD_TOKEN'])
