@@ -3,7 +3,7 @@ Der Hausaufgabenbot v2 ist releast. Hier eine Lieste der neuen Features:
 1. Nur noch Personen mit der Schüler- und der Lehrerrolle können die Hausuafgaben abfragen. Außerdem könne Benutzer gesperrt werden.
 2. Der Hausaufgabenbot ist nun auch ein Musikbot. Mit c!list bzw. c!wlist für Weihnachten können die möglichen Lieder abgerufen werden. Gestartet wird dann mit c!play gefolgt vom Namen, der hinter dem Doppelpunkt steht. (Mit Endung) Der Warteschleife können mit c!queue statt c!play Dinge hinzugefügt werden. Weitere Befehle sind c!stop c!pause c!resume c!skip c!join und c!leave
 3. Personen die "Ich will gebannt werden" schreiben (ohne die Anführungszeichen) wird der Wunsch automatisch erfüllt.
-4. Altay kann eine Video- oder Audiodatei als Direktnachricht an den Hausaufgabenbot senden. Wenn die Nachricht dazu qotd ist ("qotd" und nicht als zusäzliche Nachricht, sondern als Nachricht zur Datei), dann könne alle O$sep grillz Mitglieder diese Datei als Quote of the Day mit dem dem Befehl c!qotd abrufen.
+4. Altay kann eine Video- oder Audiodatei als Direktnachricht an den Hausaufgabenbot senden. Wenn die Nachricht dazu qotd ist ("qotd" und nicht als zusäzliche Nachricht, sondern als Nachricht zur Datei), dann könne alle O$sep grillz Mitglieder diese Datei als Quote of the day mit dem dem Befehl c!qotd abrufen.
 5. Mit c!chelp wird diese Hilfe angezeigt.
 
 O$sep grillz exklusiv:
