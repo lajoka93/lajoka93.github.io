@@ -197,7 +197,7 @@ async def report(interaction: Interaction, member: nextcord.Member, reason: str 
     print(whitelist)
     member_str = str(member)
     if member_str not in whitelist and ".lajoka" in whitelist:
-        #await member.kick(reason=reason)
+        await member.kick(reason=reason)
         await interaction.response.send_message(f'{member} wurde wegen eines Reports gekickt.')
     else:
         await interaction.response.send_message(f'{member} ist gewhitelisted oder die Whitelist ist nicht erreichbar.')
