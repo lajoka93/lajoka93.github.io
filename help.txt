@@ -10,4 +10,4 @@ O$sep grillz exklusiv:
 
 6. Mit dem Befehl /report können alle O$sep grillz Mitglieder Personen kicken, die neu gejoint sind und nicht zu dem jetzigen Mitgliedern gehöhren. (Diese sind vor /report geschützt)
 7. Mit dem Befehl /schüler können alle Schüler allen O$sep grillz Mitglieder die Schülerrolle geben. (Das ist praktische wenn andere Personen aus der 09e Zugriff auf die N256 Räume und Lernzettel benötigen.)
-8. Mit dem Befehl /ka wird dem ausführenden Benutzer eine Liste der Klassenarbeiten angezeigt.
+8. Mit dem Befehl /ka wird dem ausführenden Benutzer eine Liste der Klassenarbeiten angezeigt (Liste veraltet)
