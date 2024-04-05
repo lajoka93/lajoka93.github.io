@@ -32,4 +32,4 @@
 
 **11.** Mit /tipp kann man beim O$sep Lotto mitspielen.
 
-**12.** Mit /doppeltodernicht kann man doppet oder nichts spielen.
+**12.** Mit /doppeltodernicht kann man doppelt oder nichts spielen.
