@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Frischer Tischler</title>
 </head>
 
@@ -15,7 +16,9 @@
             <a href="order.html" class="menu_element">Bestellen</a>
             <a href="picture_gallery.html" class="menu_element">Galerie</a>
         </div>
-        <a href="./index.html"><h1  class="headline">Frischer Tischler</h1></a>
+        <a href="./index.html">
+            <h1 class="headline">Frischer Tischler</h1>
+        </a>
         <div class="menu">
             <a href="https://hb.itslearning.com" class="menu_element">Über uns</a>
             <a href="https://hb.itslearning.com" class="menu_element">Impressum</a>
@@ -23,10 +26,31 @@
     </div>
 
     <!-- Inhalt -->
-     <img src="pexels-linus-karlsson-574480-1772188.jpg" class="background-image">
-    <div class="content">
+    <img src="pexels-linus-karlsson-574480-1772188.jpg" class="background-image">
+    <div class="content center_elements">
         <div class="content2">
             <p>Bestellen Sie jetzt Ihren neuen Tisch</p>
+            <form onsubmit="buy(event)">
+                <div class="input">Produkt <select>
+                        <option>Esstisch</option>
+                        <option>Schreibtisch</option>
+                        <option>Stuhl</option>
+                        <option>Gartenbank</option>
+                        <option>Gartenbank mit Tisch</option>
+                        <option>Gartenstuhl</option>
+                        <option>Gartentisch</option>
+                    </select></div>
+                <div class="input">Geschlecht: <input type="radio" name="gender"> Männlich <input type="radio" name="gender"> Weiblich<input type="radio" name="gender"> Divers</div>
+                <div class="input">Vorname: <input type="text" id="firstname" required> Nachname: <input type="text" id="lastname" required>
+                </div>
+                <div class="input">Straße: <input type="text" id="name" required> Hausnummer: <input type="text" id="name" required></div>
+                <div class="input">Postleitzahl: <input type="text" required> Stadt: <input type="text" required></div>
+                <div class="input">E-Mail: <input type="email" id="mail" required></div>
+                <div class="input"><input type="submit" value="Bestellen"></div>
+                <div>
+                    <p id="success"></p>
+                </div>
+            </form>
         </div>
 
     </div>
