@@ -120,6 +120,14 @@ a:active {
     margin-right: 5%;
 }
 
+.big_gallery_image_left {
+    margin: 30%;
+}
+
+.big_gallery_image_right {
+    margin: -30%;
+}
+
 .gallery_headline {
     margin-left: 5%;
 }
