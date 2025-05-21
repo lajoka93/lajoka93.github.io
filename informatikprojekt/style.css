@@ -11,7 +11,7 @@
 body {
     margin: 0;
     font-family: Roboto;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 .background-image {
