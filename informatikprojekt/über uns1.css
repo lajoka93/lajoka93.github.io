@@ -124,3 +124,54 @@ margin-bottom: 5px;
     border-radius: 25px;
     opacity: 0.9;
 }
+/*PArtner*/
+.partner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.partitems{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    width: 100%;
+}
+.part1{
+    width: 35%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.part2{
+    width: 35%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.part3{
+    width: 35%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.partitems a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #4c2f26;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.partcenter{
+    display:flex ;
+    justify-content: center;
+}
+.partitems a:hover{
+    background-color: #64473d;
+}
+
