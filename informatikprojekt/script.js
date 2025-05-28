@@ -6,7 +6,7 @@ function buy(event) {
     req["name"] = document.getElementById("firstname").value + " " + document.getElementById("lastname").value;
     req["mail"] = document.getElementById("mail").value;
 
-    fetch("https://lajoka.de:3006/informatikprojekt", {
+    fetch("https://lajoka.de/informatikprojekt", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
