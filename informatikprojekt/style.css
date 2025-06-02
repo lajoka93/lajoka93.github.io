@@ -324,3 +324,45 @@ a:active {
 .partitems a:hover {
     background-color: #64473d;
 }
+/*impressum*/
+.impressum1{
+    border: solid rgba(100, 100, 100, 0.1) 1px;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+
+}
+.impressum{
+    border: solid rgba(237, 1, 1, 0.1) 1px;
+
+}
+.impressum2{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+
+.impressum3{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+.impressum4{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.impressum5{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.impressum6{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
