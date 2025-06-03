@@ -406,3 +406,37 @@ a:active {
 .kontakttext h3{
     font-size: 25px;
 }
+/*Price List*/
+
+.block {
+    display: block;
+}
+
+.price_list_button {
+    text-decoration: none;
+    background-color: #4c2f26;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50%;
+    color: white;
+    border: black 2px solid;
+}
+
+/*Anfahrt*/
+.iframe {
+    width: 100%;
+}
+
+.journey_content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, auto);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;   
+}
+
+.journey_content p {
+    text-align: left;
+    padding: 3%;
+}
