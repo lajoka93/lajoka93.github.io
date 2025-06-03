@@ -435,3 +435,10 @@ a:active {
     text-align: left;
     padding: 3%;
 }
+
+/*homepage*/
+.homepagetext p{
+    line-height: 1.3em;
+    font-size: 20px;
+
+}
