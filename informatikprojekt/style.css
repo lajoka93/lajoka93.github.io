@@ -346,7 +346,7 @@ a:active {
 .impressum3{
     text-align: left;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .bold{
     font-weight: bold;
@@ -354,15 +354,55 @@ a:active {
 .impressum4{
     text-align: left;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .impressum5{
     text-align: left;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .impressum6{
     text-align: left;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+.impressum p{
+    margin: 0px;
+}
+/*kontakt*/
+.kontakt_head{
+    font-size: 20px;
+    opacity: 80%;
+    margin-top:5px;
+}
+.kontakttext{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 0;
+    align-items: center;
+}
+.telefon{
+    text-align: left;
+}
+.email{
+    text-align: left;
+}
+.kontakttext h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.kontakttext p{
+    margin-top: 0;
+    font-size: 25px;
+}
+.kontakt1{
+    margin-top: 0;
+}
+.heading{
+    margin: 0;
+}
+.kontakttext h3{
+    font-size: 25px;
 }
