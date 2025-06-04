@@ -81,8 +81,6 @@ a:active {
     font-size: 25px;
 }
 
-/*Bestellen*/
-
 .content2 {
     width: 80%;
     background-color: white;
@@ -92,6 +90,8 @@ a:active {
     padding-bottom: 0.5%;
     margin-bottom: 1%;
 }
+
+/*Bestellen*/
 
 .input {
     display: flex;
@@ -153,7 +153,7 @@ a:active {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px; 
+    grid-row-gap: 0px;
 }
 
 .separator {
@@ -168,7 +168,7 @@ a:active {
 }
 
 /*About us page*/
-    /*Geschichte*/
+/*Geschichte*/
 .heading {
     display: flex;
     justify-content: center;
@@ -232,20 +232,20 @@ a:active {
     font-size: 15px;
 }
 
-.item1 {
+.vorteil1 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.item2 {
+.vorteil2 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
 
 }
 
-.item3 {
+.vorteil3 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
@@ -266,7 +266,7 @@ a:active {
     opacity: 0.9;
 }
 
-    /*Partner*/
+/*Partner*/
 .partner {
     display: flex;
     justify-content: center;
@@ -285,26 +285,26 @@ a:active {
     width: 100%;
 }
 
-.part1 {
+.partner1 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.part2 {
+.partner2 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
 
 }
 
-.part3 {
+.partner3 {
     width: 35%;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.partitems a {
+.partneritems a {
     text-decoration: none;
     color: #fff;
     background-color: #4c2f26;
@@ -315,92 +315,108 @@ a:active {
     padding-right: 10%;
 }
 
-.partcenter {
+.partnercenter {
     display: flex;
     justify-content: center;
 }
 
-.partitems a:hover {
+.partneritems a:hover {
     background-color: #64473d;
 }
+
 /*impressum*/
-.impressum1{
+.impressum1 {
     display: block;
     text-align: left;
     font-size: 20px;
 
 }
 
-.impressum2{
+.impressum2 {
     text-align: left;
     font-size: 20px;
     margin-top: 25px;
-    
+
 }
 
-.impressum3{
+.impressum3 {
     text-align: left;
     font-size: 20px;
     margin-top: 20px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.impressum4{
+
+.impressum4 {
     text-align: left;
     font-size: 20px;
     margin-top: 20px;
 }
-.impressum5{
+
+.impressum5 {
     text-align: left;
     font-size: 20px;
     margin-top: 20px;
 }
-.impressum6{
+
+.impressum6 {
     text-align: left;
     font-size: 20px;
     margin-top: 20px;
 }
-.impressum p{
+
+.impressum p {
     margin: 0px;
 }
+
 /*kontakt*/
-.kontakt_head{
+.kontakt_head {
     font-size: 20px;
     opacity: 80%;
-    margin-top:5px;
+    margin-top: 5px;
 }
-.kontakttext{
+
+.kontakttext {
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 0;
     align-items: center;
 }
-.telefon{
+
+.telefon {
     text-align: left;
 }
-.email{
+
+.email {
     text-align: left;
 }
+
 .kontakttext h2 {
     font-size: 30px;
     margin-bottom: 0;
     font-weight: 600;
 }
-.kontakttext p{
+
+.kontakttext p {
     margin-top: 0;
     font-size: 25px;
 }
-.kontakt1{
+
+.kontakt1 {
     margin-top: 0;
 }
-.heading{
+
+.heading {
     margin: 0;
 }
-.kontakttext h3{
+
+.kontakttext h3 {
     font-size: 25px;
 }
+
 /*Price List*/
 
 .block {
@@ -428,7 +444,7 @@ a:active {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(1, auto);
     grid-column-gap: 5px;
-    grid-row-gap: 5px;   
+    grid-row-gap: 5px;
 }
 
 .journey_content p {
@@ -436,21 +452,23 @@ a:active {
     padding: 3%;
 }
 
-/*homepage*/
-.homepagetext p{
+/*Startseite*/
+.homepagetext p {
     line-height: 1.3em;
     font-size: 20px;
 
 }
-/*img*/
-}
-.tisch1{
-    flex:1;
+
+/*Startseitenbilder*/
+
+.tisch1 {
+    flex: 1;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
-.tisch1 img{
+
+.tisch1 img {
     max-width: 100%;
     height: auto;
     display: block;
