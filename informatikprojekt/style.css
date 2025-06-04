@@ -442,3 +442,16 @@ a:active {
     font-size: 20px;
 
 }
+/*img*/
+}
+.tisch1{
+    flex:1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.tisch1 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
